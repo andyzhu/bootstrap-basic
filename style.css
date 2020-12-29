@@ -35,6 +35,11 @@ html, body {
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
+
+.carousel-item img {
+  width: 100%;
+}
+
 .btn-primary {
   background-color: #6648b1;
   border: 1px solid #6648b1;
