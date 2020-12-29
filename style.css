@@ -15,6 +15,34 @@ html, body {
 .nav-link {
   font-size: 1.1em !important;
 }
+.carousel-inner {
+  width: 100%;
+  height: 100%; /*-- let the image occupy the whole page --*/
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%; /*-- this line alone will not let the caption to be in the middle of the image --*/
+  transform: translateY(-50%); /*-- this line will move the caption up to the middle of the image --*/
+}
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
 
 
 
